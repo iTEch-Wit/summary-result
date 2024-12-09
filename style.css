@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.component{
+    border: 1px solid hsl(240, 100%, 99%);
+    border-right-width: 10px;
+    border-bottom-width: 9px;
+    width: 45vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.results{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#result{
+    color: rgb(230, 218, 218);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.circle{
+    width:55%;
+    height: 37%;
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.circle h1{
+    color: white;
+    font-size: 70px;
+}
+.circle p{
+    color: rgb(197, 185, 185);
+    font-size: 16px;
+}
+.component h5{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+#score-text{
+    color:  rgb(230, 218, 218);
+    font-size: 14px;
+    margin: 0px 49px;
+    word-spacing: 4px;
+    text-align: center;
+}
+  
+
+.summary{
+    width: 45%;
+    height: 85%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.sum{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.reaction{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid pink; */
+    background: hsl(0, 100%, 97%);
+    border-radius: 7px;
+}
+.reaction img{
+    margin-left: 10px;
+}
+#react{
+    color: hsl(0, 100%, 67%);
+    margin-left: 7px;
+}
+#eighty-one{
+    margin-left: 35%;
+    font-weight: 500;
+}
+#over-hundred{
+    color: grey;
+}
+.memory{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid pink; */
+    background: hsl(39, 83%, 95%);
+    border-radius: 7px;
+}
+.memory img{
+    margin-left: 10px;
+}
+#mem{
+    color: hsl(39, 100%, 56%);
+    margin-left: 7px;
+    margin-right: 2px;
+}
+.verbal{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid pink; */
+    background: hsl(168, 42%, 95%);
+    border-radius: 7px;
+}
+.verbal img{
+    margin-left: 10px;
+}
+#verb{
+    color: hsl(166, 100%, 37%);
+    margin-left: 7px;
+    margin-right: 14px;
+}
+.visual{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid pink; */
+    background: hsl(240, 100%, 95%);
+    border-radius: 7px;
+}
+.visual img{
+    margin-left: 10px;
+}
+#vis{
+    color: hsl(234, 85%, 45%);
+    margin-left: 7px;
+    margin-right: 17px;
+}
+.summary button{
+    width: 90%;
+    height: 11%;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 720px){
+    .component{
+        border: 1px solid hsl(240, 100%, 99%);
+        width: 97vw;
+        height: 150vh;
+        margin-top: 10%;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .results{
+        width: 99%;
+        height: 50%;
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
+        /* border: 1px solid red; */
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .summary{
+        width: 90%;
+        height: 45%;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+
+    .sum{
+        width: 88%;
+        height: 7%;
+        /* border: 1px solid pink; */
+        text-align: left;
+        font-size: 25px;
+    }
+    #eighty-one{
+        margin-left: 43%;
+    }
+
+}
